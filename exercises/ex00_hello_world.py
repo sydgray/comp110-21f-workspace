@@ -1,5 +1,5 @@
-print("Hello, world. I am Sydney")
+__author__ = "1234567890"
 
 """My first program for COMP110."""
 
-__author__=730400246
+print("Hello, world. I am Sydney")
