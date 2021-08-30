@@ -1,4 +1,4 @@
-"""Exercise 01 to learn input programming"""
+"""Exercise 01 to learn input programming."""
 
 __author__ = "730400246"
 

@@ -1,26 +1,26 @@
-"""Exercise to learn inputting numbers"""
+"""Exercise to learn inputting numbers."""
 
 __author__ = "730400246"
 
-side1: str = input("Left-hand side: ")
-side2: str = input("Right-hand side: ")
-side11 = side1
-side11 = (int(side11))
-side22 = side2
-side22 = (int(side22))
-formula1 = (int(side11) ** int(side22))
-formula1 = str(formula1)
-word1 = str(side11) + " ** " + str(side22) + " is "
-formula2 = (int(side11) / int(side22))
-formula2 = str(formula2)
-word2 = str(side11) + " / " + str(side22) + " is "
-formula3 = (int(side11) // int(side22))
-formula3 = str(formula3)
-word3 = str(side11) + " // " + str(side22) + " is "
-formula4 = (int(side11) % int(side22))
-formula4 = str(formula4)
-word4 = str(side11) + " % " + str(side22) + " is "
-print(word1 + formula1)
-print(word2 + formula2)
-print(word3 + formula3)
-print(word4 + formula4)
+side_1: str = input("Left-hand side: ")
+side_2: str = input("Right-hand side: ")
+side_11 = side_1
+side_11 = (int(side_11))
+side_22 = side_2
+side_22 = (int(side_22))
+formula_1 = (int(side_11) ** int(side_22))
+formula_1 = str(formula_1)
+word_1 = str(side_11) + " ** " + str(side_22) + " is "
+formula_2 = (int(side_11) / int(side_22))
+formula_2 = str(formula_2)
+word_2 = str(side_11) + " / " + str(side_22) + " is "
+formula_3 = (int(side_11) // int(side_22))
+formula_3 = str(formula_3)
+word_3 = str(side_11) + " // " + str(side_22) + " is "
+formula_4 = (int(side_11) % int(side_22))
+formula_4 = str(formula_4)
+word_4 = str(side_11) + " % " + str(side_22) + " is "
+print(word_1 + formula_1)
+print(word_2 + formula_2)
+print(word_3 + formula_3)
+print(word_4 + formula_4)
