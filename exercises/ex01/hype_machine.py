@@ -1,5 +1,10 @@
-# TODO: Write docstring here
+"""Exercise 01 to learn input programming"""
 
-# TODO: Initialize __author__ variable here
+__author__ = "730400246"
 
-# TODO: Implement your program logic here
+name: str = input("What is your name? ")
+print("You entered: ")
+print(name)
+print((name) + str(", you are swag!"))
+print(str("You are sooooo dope, ") + (name))
+print(str("Hey wow, ") + (name) + str(", ur poggers"))
