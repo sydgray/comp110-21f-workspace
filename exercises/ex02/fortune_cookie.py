@@ -13,20 +13,16 @@ from random import randint
 
 
 print("Your fortune cookie says... ")
-randint(1, 4)
-fortunea = 1
-fortuneb = 2
-fortunec = 3
-fortuned = 4
-if (randint(1, 4) == fortunea):
+fortune: int = int(randint(1, 4))
+
+if fortune == 1:
     print("You will find love soon.")
 else:
-    if (randint(1, 4) == fortuneb):
+    if fortune == 2:
         print("The month will be boring.")
     else: 
-        if (randint(1, 4) == fortunec):
+        if fortune == 3:
             print("The day will be full of chaos.")
         else: 
-            (randint(1, 4) == fortuned)
             print("There will be misfortune in your year.")
 print("Now, go spread positive vibes!")
