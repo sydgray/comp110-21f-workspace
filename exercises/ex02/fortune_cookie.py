@@ -18,7 +18,7 @@ fortunea = 1
 fortuneb = 2
 fortunec = 3
 fortuned = 4
-if randint(1, 4) == fortunea:
+if (randint(1, 4) == fortunea):
     print("You will find love soon.")
 else:
     if (randint(1, 4) == fortuneb):
