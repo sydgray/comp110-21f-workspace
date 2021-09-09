@@ -7,7 +7,7 @@ beat: str = input("What beat do you want to repeat? ")
 i: int = int(input("How many times do you want to repeat it? "))
 z: int = int(i)
 while i > 0:
-    print((beat + " ") * i)
+    print((beat + " ") * (i - 1) + beat)
     i = i - (i + i)
 while z <= 0:
     print("No beat...") 
